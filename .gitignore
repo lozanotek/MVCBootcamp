@@ -1,9 +1,40 @@
-_ReSharper.*
-bin
-obj
-build
-dist
-*.suo
-*resharper*
+# Ignore file for Visual Studio 2008
+
+# use glob syntax
+syntax: glob
+
+# Ignore Visual Studio 2008 files
+*.obj
+*.exe
 *.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
 *.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.resharper
+[Bb]uild/
+[Bb]in
+[Db]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*logs*
+
+# Files edited by gVim
+*.*~
+*.swp

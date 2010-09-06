@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{DAE8630B-A778-48FC-A047-2904FA9FD543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{D6A10CC8-3F50-474C-B4C9-39D241E0B91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{28E046F3-265A-4575-90CF-5689712120A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE8630B-A778-48FC-A047-2904FA9FD543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE8630B-A778-48FC-A047-2904FA9FD543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE8630B-A778-48FC-A047-2904FA9FD543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE8630B-A778-48FC-A047-2904FA9FD543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A10CC8-3F50-474C-B4C9-39D241E0B91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A10CC8-3F50-474C-B4C9-39D241E0B91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A10CC8-3F50-474C-B4C9-39D241E0B91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A10CC8-3F50-474C-B4C9-39D241E0B91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E046F3-265A-4575-90CF-5689712120A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E046F3-265A-4575-90CF-5689712120A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E046F3-265A-4575-90CF-5689712120A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E046F3-265A-4575-90CF-5689712120A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

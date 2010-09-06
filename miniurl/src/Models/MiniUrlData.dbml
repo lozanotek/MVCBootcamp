@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="miniurl" Class="MiniUrlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\svn\codeplex\miniurl\src\VS2008\Web\App_Data\miniurl.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="miniUrl.Models.Properties.Settings" SettingsPropertyName="miniurlConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Urls" Member="Urls">
+    <Type Name="Url">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LongUrl" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Hash" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Url_UrlView" Member="UrlViews" ThisKey="Id" OtherKey="UrlId" Type="UrlView" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UrlViews" Member="UrlViews">
+    <Type Name="UrlView">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UrlId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Url_UrlView" Member="Url" ThisKey="UrlId" OtherKey="Id" Type="Url" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

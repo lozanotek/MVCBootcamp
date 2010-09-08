@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part3_ModelMapping", "part3_ModelMapping\part3_ModelMapping.csproj", "{D0262743-A487-4973-91CD-9D9D4A066B38}"
 EndProject
 Global
